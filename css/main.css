@@ -1,0 +1,104 @@
+body{font-family:'Microsoft Yahei';font-size:14px;color:#1f1f1f;}
+html,body{height:100%}
+
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+
+.top {
+	height: 140px;
+	text-align:center;
+}
+
+.center {
+	width:1200px;
+	height: calc(100vh - 200px);
+	margin:0 auto;
+	padding-top: 10px;
+}
+
+.bottom {
+	width:1200px;
+	height: 100px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.header{
+	background-color:#ce3f31;
+	height:100px;
+	border-bottom:0px solid #dddddd;
+	position: relative;
+}
+
+.header_image,.header_title{
+	width: 50%;
+	height: 96px;
+	position: absolute;
+}
+
+.header_image{
+	right: 60%;
+	color:#fff;
+	margin: auto 0px;
+	text-align:right;
+}
+
+.header_title{
+	left: 40%;
+	text-align:left;
+	margin: 0px auto;
+	font-size: 36px;
+	color:#fff;
+	padding-left: 15px;
+	display: flex;              /* establish flex container */
+	flex-direction: column;     /* stack flex items vertically */
+	justify-content: center;    /* center items vertically, in this case */
+	align-items: left;        /* center items horizontally, in this case */
+}
+.nav{
+	width:100%;
+	height:40px;
+	background:#ce3f31;
+	overflow:hidden;
+}
+.list{ width:1000px; height:40px; margin:0 auto;}
+.list li{ float:left;}
+.list li a{ display:block; transition:0.3s;}
+.list b,.list i{ display:block; padding:0 30px; color:#fff; line-height:40px; text-align:center;}
+.list b{ font-weight:100}
+.list i{ font-style:normal; background:#8B0000; color:#fff;}
+.list a:hover{ margin-top:-40px;}
+
+.center_left,.center_right{
+	height: calc(100vh - 200px);
+}
+
+.center_left {
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+
+.center_left p {
+	word-wrap:break-word;
+	padding: 15px;
+}
+
+.center_right {
+	float: right;
+	width: 19%;
+	text-align:left;
+	background: #f1f1f1;
+}
+.center_right p {
+	padding-left: 10px;
+	word-wrap:break-word;
+}
+.center_right p.download {
+	font-size: 28px;
+}
