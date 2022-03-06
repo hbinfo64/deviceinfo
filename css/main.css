@@ -112,3 +112,53 @@ a{
 .center_right p.download {
 	font-size: 28px;
 }
+
+#wrapper{
+	position: relative;
+	width: 900px;
+	min-height: 120vh;
+	margin: 20px auto;
+}
+#wrapper .content{
+	width:100%;
+	height:100%;
+}
+
+#wrapper li{
+	position: absolute;
+	left: 200px;
+	top:0;
+}
+
+#wrapper li img{
+	width: 100%;
+	height: 100%;
+}
+.btns{
+	display: none;
+}
+.btns span{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 50%;
+	margin-top: -20px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Simsun;
+	font-size: 30px;
+	border: 1px solid #fff;
+	opacity: 0.6;
+	cursor: pointer;
+	color: #fff;
+	background: black;
+	z-index: 99;
+}
+.btns .prev{
+	left: 5px;
+}
+.btns .next{
+	left: 100%;
+	margin-left: -45px;
+}
